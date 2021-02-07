@@ -28,6 +28,7 @@ body {
     text-transform: uppercase;
     font-family:'Lato Bold', sans-serif;
     font-size: 22px;
+    font-weight: bold;
     letter-spacing: 0.93px;
     text-align: center;
     display: inline-block;
@@ -75,6 +76,7 @@ body {
   }
   .search-area h1 {
     font-size: 38px;
+    font-weight: bold;
     color: var(--white);
     letter-spacing: 0;
     text-align: center;
@@ -83,6 +85,7 @@ body {
 
   .search-area h4{
     font-size: 18px;
+    font-weight: bold;
     color: #FFFFFF;
     letter-spacing: 0;
     text-align: center;
@@ -136,11 +139,11 @@ body {
     letter-spacing: 2px;
     line-height: 18px;
   }
-  .last-section-header{}
 
   .yellow-text{
     font-family:'Open Sans', sans-serif;
     font-size: 16px;
+    font-weight: bold;
     color: #F6BC25;
     letter-spacing: 0;
     display: flex;
@@ -155,6 +158,91 @@ body {
     height: 19px;
     padding-right: 10px;
   }
+
+  .second-section{
+    background-image: linear-gradient(0deg, #E6E6E6 0%, #FFFFFF 100%);
+    padding-bottom: 15px;
+  }
+  .sub-container {
+    padding-top: 30px;
+}
+  .bullet-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+    padding: 20px 0 15px 0;
+  }
+  .bullet{
+    display: flex;
+    flex-direction: column;
+    flex-flow: row;
+  }
+
+  .dot{
+    height: 50px;
+    width: 50px;
+    background-color: #004A80;
+    border-radius: 50%;
+    display: flex;
+    font-size: 26.88px;
+    color: #F6BC25;
+    letter-spacing: 0;
+    text-align: center;
+  }
+
+  .bullet-container-information{
+    padding-left: 10.4px;
+  }
+
+  .title-second-section {
+    font-size: 38px;
+    font-weight: bold;
+    color: #004A80;
+    letter-spacing: 0;
+    text-align: center;
+}
+
+.lorem-information {
+  font-size: 18px;
+  color: #4A4A4A;
+  letter-spacing: 0;
+  line-height: 28px;
+}
+
+.bullet-title {
+  font-weight: bold;
+  font-size: 20px;
+  color: #004A80;
+  letter-spacing: 0;
+}
+
+.bullet-information {
+  font-size: 16px;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+
+.footer{
+  padding: 20px 15px 30px 15px;
+}
+.footer-information {
+  font-size: 15px;
+  color: #999999;
+  letter-spacing: 0;
+  line-height: 20px;
+  padding-bottom: 20px;
+}
+.text-terms{
+  text-align: center;
+  font-weight: bold;
+  font-size: 14px;
+  color: #004A80;
+  letter-spacing: 0;
+
+}
 
   /* small tablet styles */
   @media screen and (min-width: 620px){
